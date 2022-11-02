@@ -1,0 +1,53 @@
+
+body {background-color: #6DADC5ff;
+}
+
+#homeTile {
+    width: 80%;
+    border: 1em solid ;
+    border-color: #0D5C70ff;
+    padding: 1.5em;
+    margin: 3em;
+    border-radius: .5em;
+  }
+#bioTile {
+    width: 80%;
+    border: 1em solid ;
+    border-color: #0D5C70ff;
+    padding: 1.5em;
+    margin: 3em;
+    border-radius: .5em;
+}
+#resumeTile {
+    width: 80%;
+    border: 1em solid ;
+    border-color: #0D5C70ff;
+    padding: 1.5em;
+    margin: 3em;
+    border-radius: .5em;
+  }
+#projectsTile {
+    width: 80%;
+    border: 1em solid ;
+    border-color: #0D5C70ff;
+    padding: 1.5em;
+    margin: 3em;
+    border-radius: .5em;
+  }
+#linksTile {
+    width: 80%;
+    border: 1em solid ;
+    border-color: #0D5C70ff;
+    padding: 1.5em;
+    margin: 3em;
+    border-radius: .5em;
+  }
+
+
+/* CSS HEX */
+/* #3B3D4Aff */
+/* --rhythm: ;
+--charm-pink: #DC8CB1ff;
+--blue-sapphire: #0D5C70ff;
+--maximum-blue: ;
+--black-shadows: #D2C1C8ff; */
