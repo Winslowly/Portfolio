@@ -1,47 +1,104 @@
 
-body {background-color: #6DADC5ff;
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: #6DADC5ff;
+  margin-left: 60px;
+}
+h1 {
+  width: 40%;
+  text-align: center;
+  border: .03em solid;
+  margin: 50px 0px 5px 0px ;
+}
+h2 {
+  width: 40%;
+  text-align: center;
+  border: .03em solid;
+  margin: 5px 0px 5px 0px;
+}
+.button-container{
+  margin: 50px 60px 0px 30px;
+
+}
+.btn{
+  font-family: 'Prompt', sans-serif;
+  border: 3em, solid;
+  border-color: #0D5C70ff;
+  color: rgb(231, 19, 19);
+  padding: 8px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 10px 0px;
+}
+/* #homeButton{
+  
+}
+#bioButton{
+  
+}
+#resumeButton{
+  
+}
+#projectsButton{
+
+}
+#linksButton{
+  
+} */
+.article {
+  text-decoration: none;
 }
 
 #homeTile {
+    display: block;
     width: 80%;
     border: 1em solid ;
     border-color: #0D5C70ff;
     padding: 1.5em;
-    margin: 3em;
+    margin: 0px;
     border-radius: .5em;
   }
 #bioTile {
+    display: block;
     width: 80%;
     border: 1em solid ;
-    border-color: #0D5C70ff;
+    border-color: #DC8CB1ff;
     padding: 1.5em;
-    margin: 3em;
+    margin: 0px;
     border-radius: .5em;
 }
 #resumeTile {
+    display: block;
     width: 80%;
     border: 1em solid ;
     border-color: #0D5C70ff;
     padding: 1.5em;
-    margin: 3em;
+    margin: 0px;
     border-radius: .5em;
   }
 #projectsTile {
+    display: block;
     width: 80%;
     border: 1em solid ;
-    border-color: #0D5C70ff;
+    border-color: #D2C1C8ff;
     padding: 1.5em;
-    margin: 3em;
+    margin: 0px;
     border-radius: .5em;
   }
 #linksTile {
+    text-decoration: none;
+    display: block;
     width: 80%;
     border: 1em solid ;
-    border-color: #0D5C70ff;
+    border-color: #3B3D4Aff;
     padding: 1.5em;
-    margin: 3em;
+    margin: 0px;
     border-radius: .5em;
   }
+
 
 
 /* CSS HEX */
