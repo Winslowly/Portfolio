@@ -17,6 +17,7 @@ h2 {
   margin: 5px 0px 5px 0px;
 }
 .button-container{
+  display: flex;
   margin: 50px 60px 0px 30px;
 
 }
@@ -49,10 +50,11 @@ h2 {
   
 } */
 .article {
+  display: flex;
   text-decoration: none;
 }
 
-#homeTile {
+#hometile {
     display: block;
     width: 80%;
     border: 1em solid ;
@@ -61,7 +63,7 @@ h2 {
     margin: 0px;
     border-radius: .5em;
   }
-#bioTile {
+#biotile {
     display: block;
     width: 80%;
     border: 1em solid ;
@@ -70,7 +72,7 @@ h2 {
     margin: 0px;
     border-radius: .5em;
 }
-#resumeTile {
+#resumetile {
     display: block;
     width: 80%;
     border: 1em solid ;
@@ -79,7 +81,7 @@ h2 {
     margin: 0px;
     border-radius: .5em;
   }
-#projectsTile {
+#projectstile {
     display: block;
     width: 80%;
     border: 1em solid ;
@@ -88,9 +90,8 @@ h2 {
     margin: 0px;
     border-radius: .5em;
   }
-#linksTile {
-    text-decoration: none;
-    display: block;
+#linkstile {
+    display: flex;
     width: 80%;
     border: 1em solid ;
     border-color: #3B3D4Aff;
@@ -108,3 +109,96 @@ h2 {
 --blue-sapphire: #0D5C70ff;
 --maximum-blue: ;
 --black-shadows: #D2C1C8ff; */
+
+/* Carousel CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+body {
+	background: #f9f9f9;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container > img {
+	width: 50%;
+}
+.container > h1 {
+	font-family: "Montserrat", impact;
+	font-weight: 800;
+	font-size: 2.5em;
+	margin-top: -1%;
+	color: #4caaa8;
+	text-shadow: 1px 1px #f2cd99;
+	letter-spacing: 2px;
+}
+/* ======= CAROUSEL SECTION ======== */
+.carousel-container {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+.carousel-images {
+	width: 80%;
+	background: #fa8d8e;
+	padding: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px #f2cd99;
+}
+.carousel-images img {
+  display: none;
+	width: 100%;
+	border-radius: 10px;
+	display: none;
+}
+.carousel-images img:first-of-type {
+  display: block;
+}
+.carousel-button {
+	align-self: center;
+	background: #f2cd99;
+	color: #888;
+	padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 1px 1px #fa8d8e;
+}
+.carousel-button:hover {
+	cursor: pointer;
+	background: #fa8d8e;
+	box-shadow: 1px 1px #f2cd99;
+	color: white;
+}
+
+.carousel-images img:first-of-type {
+
+} */

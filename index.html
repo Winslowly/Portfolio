@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Prompt:wght@500&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/abe58785c8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-</head>
+    <script src="app.js"></script>
 <body>
 <!-- Header and sub-header at top-left of page -->
     <header id="header">
@@ -18,53 +19,176 @@
         <h2>Software Developer</h2>
         
     </header>
+    <div id="icons">
+        <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/feed/"></a>
+        <a class="fa-brands fa-github" href="https://github.com/Winslowly"></a>
+        <a class="fa-brands fa-instagram" href="https://www.instagram.com/getacty/?hl=en"></a>
+        <a class="fa-regular fa-envelope" href="mailto:eli.winslow@gmail.com"></a>
+    </div>
 
 <!-- Tiles overlayed so only one shows at a time -->
 
 
 <!-- Nav buttons to reveal tiles w/ color coded boxes-->
     <div class="button-container">
-        <button class="btn" id="homeButton"  ><a href="#homeTile"><ion-icon name="home-outline"></ion-icon> Home</a></button>
-        <button class="btn" id="bioButton"  ><a href="#bioTile"><ion-icon name="bicycle-outline"></ion-icon> Bio</a></button>
-        <button class="btn" id="resumeButton"  ><a href="#resumeTile"><ion-icon name="layers-outline"></ion-icon> Resume</a></button>
-        <button class="btn" id="projectsButton"  ><a href="#projectsTile"><ion-icon name="images-outline"></ion-icon> Projects</a></button>
-        <button class="btn" id="linksButton"  ><a href="#linksTile"><ion-icon name="return-up-forward-outline"></ion-icon> Links</a></button>
+        <button class="btn" id="homebutton">
+            <a href="#hometile">
+                <ion-icon name="home-outline">
+                    </ion-icon> Home</a>
+        </button>
+
+        <button class="btn" id="biobutton">
+            <a href="#biotile">
+                <ion-icon name="bicycle-outline">
+                    </ion-icon> Bio</a>
+        </button>
+
+        <button class="btn" id="resumebutton">
+            <a href="#resumetile">
+                <ion-icon name="layers-outline">
+                    </ion-icon> Resume</a>
+        </button>
+        <button class="btn" id="projectsbutton">
+            <a href="#projectstile">
+                <ion-icon name="images-outline">
+                    </ion-icon> Projects</a>
+        </button>
+        <!-- <button class="btn" id="linksButton">
+            <a href="#linkstile">
+                <ion-icon name="return-up-forward-outline">
+                    </ion-icon> Links</a>
+        </button> -->
     </div>
 <!-- build each tile with coresponding information -->
-    <div class= "article" id="homeTile">
-        <h3><ion-icon name="home-outline"></ion-icon> Welcome</h3>
-            <p>
-                HOME - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
-            </p>
+    <section >
+        <div id= "hometile">
+            <h3><ion-icon name="home-outline"></ion-icon> Welcome</h3>
+                <p>
+                    Thanks for stopping by to learn more about me.  I have skills and experience  that give me a unique perspective on problem solving in a team environment.  I'm excited to join in and leverage my strengths in a way that is beneficial to all parties both in-house or client side. With a background in sales, logistics and technical systems I believe that I can bridge the communication gap that many teams struggle with. Have a look around and see what I could bring to your team.
+                </p>
             
         </div>
-    <div class= "article" id="bioTile">
-        <h3><ion-icon name="bicycle-outline"></ion-icon>  Biography</h3>
-            <p>
-                Bio - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
-            </p>
+
+        <div id= "biotile">
+            <h3><ion-icon name="bicycle-outline"></ion-icon>  Biography</h3>
+                <p>
+                    Resume - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!    
+                </p>
         </div>
-    <div class= "article" id="resumeTile">
-        <h3><ion-icon name="layers-outline"></ion-icon>  Resume</h3>
-            <p>
-                Resume - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
-            </p>
-    </div>
-    <div  class= "article" id="projectsTile">
-        <h3><ion-icon name="images-outline"></ion-icon>  Projects</h3>
-            <p>
-                Projects - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
-            </p>
-    </div>
-    <div class= "article" id="linksTile">
-        <h3><ion-icon name="return-up-forward-outline"></ion-icon>  Links</h3>
-            <p>
-                Links - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
-            </p>
-    </div>
+
+        <div id= "resumetile">
+            <h3><ion-icon name="layers-outline"></ion-icon>  Resume</h3>
+                <p>
+                    Resume - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
+                </p>
+        </div>
+
+        <div id= "projectstile">
+            <h3><ion-icon name="images-outline"></ion-icon>  Projects</h3>
+                <p>
+                    Projects - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
 
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+                </p>
+        </div>
+        
+        <!-- <div id= "linksTile">
+            <h3><ion-icon name="return-up-forward-outline"></ion-icon>  Links</h3>
+                <p>
+                    Links - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
+                </p>
+        </div> -->
+    </section>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ///////////////////////////
+<!-- 
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>CORGI CAROUSEL</title>
+		<!-- STYLES -->
+		<!-- <link rel="stylesheet" href="css/style.css" />
+		<!-- FONTS -->
+		<!-- <link
+			href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+			rel="stylesheet"
+		/> -->
+		<!-- <link
+			rel="stylesheet"
+			href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" -->
+		/>
+		<!-- SCRIPTS -->
+		<!-- <script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"
+		></script>
+		<script src="js/app.js" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="container"> -->
+			<!-- =========== CAROUSEL TOP ============== -->
+			<!-- <img src="images/carousel.png" alt="" />
+			<h1>CORGI CAROUSEL!</h1> -->
+			<!-- =========== CAROUSEL CONTAINER ======== -->
+			<!-- <div class="carousel-container"> -->
+				<!-- previous button -->
+				<!-- <div class="carousel-button previous"> -->
+					<!-- from linearicons icon font -->
+					<!-- <span class="lnr lnr-chevron-left"></span>
+				</div> -->
+				<!-- images -->
+				<!-- <div class="carousel-images">
+					<img src="images/corgi-cute.png" alt="corgi looking cute" />
+					<img
+						src="images/corgi-hotdog.png"
+						alt="corgi looking cute in a hotdog costume"
+					/>
+					<img
+						src="images/corgi-goggles.png"
+						alt="corgi looking cute in goggles"
+					/>
+					<img src="images/corgi-boat.png" alt="corgi looking cute in a boat" />
+				</div> -->
+				<!-- next button -->
+				<!-- <div class="carousel-button next"> -->
+					<!-- from linearicons icon font -->
+					<!-- <span class="lnr lnr-chevron-right"></span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html> --> -->
+/////////////////////////// --> -->
