@@ -7,18 +7,19 @@
     <title>Eli's Resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Prompt:wght@500&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/abe58785c8.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/abe58785c8.js" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 <body>
 <!-- Header and sub-header at top-left of page -->
     <header id="header">
         <h1>Eli Winslow</h1>
         <h2>Software Developer</h2>
-        
     </header>
+    
     <div id="icons">
         <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/feed/"></a>
         <a class="fa-brands fa-github" href="https://github.com/Winslowly"></a>
@@ -53,52 +54,76 @@
                 <ion-icon name="images-outline">
                     </ion-icon> Projects</a>
         </button>
-        <!-- <button class="btn" id="linksButton">
-            <a href="#linkstile">
-                <ion-icon name="return-up-forward-outline">
-                    </ion-icon> Links</a>
-        </button> -->
     </div>
-<!-- build each tile with coresponding information -->
+
     <section >
         <div id= "hometile">
             <h3><ion-icon name="home-outline"></ion-icon> Welcome</h3>
                 <p>
-                    Thanks for stopping by to learn more about me.  I have skills and experience  that give me a unique perspective on problem solving in a team environment.  I'm excited to join in and leverage my strengths in a way that is beneficial to all parties both in-house or client side. With a background in sales, logistics and technical systems I believe that I can bridge the communication gap that many teams struggle with. Have a look around and see what I could bring to your team.
+                    - Thanks for stopping by to learn more about me.  I have skills and experience that give me a unique perspective on problem solving in a team environment.  I'm excited to join in and leverage my strengths in a way that is beneficial to all parties both in-house or client side. With a background in sales, logistics and technical systems I believe that I can bridge the communication gap that many teams struggle with. Have a look around and see what I could bring to your team.
                 </p>
-            
         </div>
 
         <div id= "biotile">
             <h3><ion-icon name="bicycle-outline"></ion-icon>  Biography</h3>
                 <p>
-                    Resume - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!    
+                    - Hailing from the Pacific Northwest in Washington State, I have my roots in the outdoors and enjoy being in the forest or on the water. As a father of two "littles" I can usually be found with a tag along throughout my day. My family and I are avid bike riders and enjoy our neighborhoods sidewalks and beautiful country roads.  I enjoy learning about art, music, history, building and most things mechanical.  
                 </p>
         </div>
 
         <div id= "resumetile">
             <h3><ion-icon name="layers-outline"></ion-icon>  Resume</h3>
                 <p>
-                    Resume - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
+                    - (Most recent first)
+                    <ul>
+                        <li>Primary care giver for my children during the C-19 pandemic. (2+ yrs)</li>
+                        <li>Residential and Commercial Electrician. (5+yrs)  Greater Seattle, WA area</li>
+                        <li>Low voltage Communications technician. (1yr) Bend, OR</li>
+                        <li>Sales and Mechanic in the Cycling industry (6+yrs) Greater Seattle, WA area</li>
+                        <li>Volunteer Work: I work with a local nonprofit to build and maintain trails in our city parks and forestlands. Skagit County, WA</li>
+                        <li>Volunteer Work: I co-chair our local early learning schools garden and mintenance commit and facilitate parent work days.</li>
+                    </ul>
                 </p>
         </div>
 
         <div id= "projectstile">
             <h3><ion-icon name="images-outline"></ion-icon>  Projects</h3>
                 <p>
-                    Projects - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
-
-
-
+                    <div class="carousel-container">
+                        <div class="carousel-button">
+                            <span class="left"><ion-icon name="caret-back-outline" size="large"></ion-icon></span>
+                        </div>
+                        <div class="carousel-images">
+                            <img src="https://i.imgur.com/4f2nO8j.png" alt="this flower box is a flower bos of flowers" />
+                            <img
+                                src="https://i.imgur.com/dfOQ7Gz.png"
+                                alt="This box is full of flowers"
+                            />
+                            <img
+                                src="https://i.imgur.com/2cO6bp2.png"
+                                alt="A box of flowers"
+                            />
+                        </div>
+                        <div class="carousel-button">
+                            <span class="right"><ion-icon name="caret-forward-outline" size="large"></ion-icon></span>
+                        </div>
+                    </div>
                 </p>
         </div>
-        
-        <!-- <div id= "linksTile">
-            <h3><ion-icon name="return-up-forward-outline"></ion-icon>  Links</h3>
-                <p>
-                    Links - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi minus cum, enim excepturi eaque delectus laboriosam facilis totam saepe, nisi molestiae ipsa officia architecto ducimus voluptatem iusto distinctio vitae dolor!
-                </p>
-        </div> -->
+        <div>
+            <button class="btn" id="openModal">Ready to start our journey?</button>
+        </div>
+		<div id="modal">
+			<div id="modal-textbox">
+
+				<h1 id="h1modal"><ion-icon name="call-outline"></ion-icon><ion-icon name="call-outline"></ion-icon>Call Now!<ion-icon name="call-outline"></ion-icon><ion-icon name="call-outline"></ion-icon></h1>
+				<a href="tel:5554280940" >1-800-Hire-Eli</a>
+				
+				<div id="modal-footer">
+					<button class="btn" id="close" href="#">Close</btn>
+				</div>
+			</div>
+		</div>
     </section>
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -130,65 +155,3 @@
 
 
 
-
-
-<!-- ///////////////////////////
-<!-- 
-<html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8" />
-		<title>CORGI CAROUSEL</title>
-		<!-- STYLES -->
-		<!-- <link rel="stylesheet" href="css/style.css" />
-		<!-- FONTS -->
-		<!-- <link
-			href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-			rel="stylesheet"
-		/> -->
-		<!-- <link
-			rel="stylesheet"
-			href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" -->
-		/>
-		<!-- SCRIPTS -->
-		<!-- <script
-			src="https://code.jquery.com/jquery-3.3.1.min.js"
-			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			crossorigin="anonymous"
-		></script>
-		<script src="js/app.js" charset="utf-8"></script>
-	</head>
-	<body>
-		<div class="container"> -->
-			<!-- =========== CAROUSEL TOP ============== -->
-			<!-- <img src="images/carousel.png" alt="" />
-			<h1>CORGI CAROUSEL!</h1> -->
-			<!-- =========== CAROUSEL CONTAINER ======== -->
-			<!-- <div class="carousel-container"> -->
-				<!-- previous button -->
-				<!-- <div class="carousel-button previous"> -->
-					<!-- from linearicons icon font -->
-					<!-- <span class="lnr lnr-chevron-left"></span>
-				</div> -->
-				<!-- images -->
-				<!-- <div class="carousel-images">
-					<img src="images/corgi-cute.png" alt="corgi looking cute" />
-					<img
-						src="images/corgi-hotdog.png"
-						alt="corgi looking cute in a hotdog costume"
-					/>
-					<img
-						src="images/corgi-goggles.png"
-						alt="corgi looking cute in goggles"
-					/>
-					<img src="images/corgi-boat.png" alt="corgi looking cute in a boat" />
-				</div> -->
-				<!-- next button -->
-				<!-- <div class="carousel-button next"> -->
-					<!-- from linearicons icon font -->
-					<!-- <span class="lnr lnr-chevron-right"></span>
-				</div>
-			</div>
-		</div>
-	</body>
-</html> --> -->
-/////////////////////////// --> -->

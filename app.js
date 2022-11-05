@@ -1,94 +1,116 @@
 
 $(() => {
-    $('.next').on('click', () => {
-        let currentImgIndex = 0;
-        .css('display', 'none')
-        currentImgIndex++
-        $('.carousel-images').children().eq(currentImgIndex).css('display', 'block')
+
+$('#hometile').show()
+
+const showHome = () => {  
+    $('#hometile').show()
+    $('#biotile').hide()
+    $('#resumetile').hide()
+    $('#projectstile').hide()
+}
+
+    $('#homebutton').on('click', showHome)
+
+
+$('#biotile').hide()
+
+    const showBio = () => {  
+    $('#biotile').show()
+    $('#hometile').hide()
+    $('#resumetile').hide()
+    $('#projectstile').hide()
+}
+    $('#biobutton').on('click', showBio)
+
+
+$('#resumetile').hide()
+
+    const showResume = () => {  
+    $('#resumetile').show()
+    $('#hometile').hide()
+    $('#biotile').hide()
+    $('#projectstile').hide()
+}
+    $('#resumebutton').on('click', showResume)
+
+
+$('#projectstile').hide()
+
+    const showProjects = () => {  
+    $('#projectstile').show()
+    $('#hometile').hide()
+    $('#biotile').hide()
+    $('#resumetile').hide()
+}
+    $('#projectsbutton').on('click', showProjects)
+
+
+
+    // Modal
+
+$(() => {
+
+        const $openBtn = $('#openModal');
+        const $modal = $('#modal');
+        const $closeBtn = $('#close');
+        
+        
+        const openModal = () => {
+            $modal.css('display', 'block');
+        }
+        const closeModal = () => {
+            $modal.css('display', 'none');
+        }
+        
+        
+        $openBtn.on('click', openModal);
+        $closeBtn.on('click', closeModal);
+        
+        
+        
+        }) 
+
+})
+
+
+
+$(() => {
+
+    
+
+
+    let currentImgIndex = 0;
+
+    let numOfImages = $('.carousel-images').children().length - 1
+
+    $('.right').on('click', () => {
+        $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
         if(currentImgIndex < numOfImages) {
             currentImgIndex ++
            } else {
             currentImgIndex = 0
            }
-       }
-    
-// })
-// $((numOfImages) => {
+        $('.carousel-images').children().eq(currentImgIndex).css('display','block')
+       })
+      
 
-//     $('.carousel-images').children().length - 1
-// })
+    $('.left').on('click', () => {
 
+        $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
 
+        if(currentImgIndex > 0) {
+            currentImgIndex --
+          } else {
+            currentImgIndex = numOfImages
+          }
+          
 
+        $('.carousel-images').children().eq(currentImgIndex).css('display', 'block')
 
-
-
-
-
-
-
-
-
-
+    })
 
 
 
 
-// if(currentImgIndex < numOfImages) {
-//     currentImgIndex ++
-//    } else {
-//     currentImgIndex = 0
-//    }
-
-
-
-
-
-
-
-
-//    $('.previous').on('click', () => {
-//     // stuff will go here 
-//    }
-
-// const div= [
-//     "homeTile",
-//     "bioTile",
-//     "resumeTile",
-//     "projectsTile",
-//     "linksTile"
-
-
-// 
-//     display: block;
-// })
-
-   
-    
-   
-    // $('#resumeTile').hide()
-    // $('#projectsTile').hide()
-    // $('#linksTile').hide()   
-// $(() => {  
-//     $('#hometile').hide()
-//     $('#biotile').hide()
-//     $('#hometile').hide()
-//     $('#resumetile').hide()
-//     $('#projectstile').hide()
-
-// }
-// const showText = () => {
-        
-//     $('#biotile').slideDown(1000);
-
-//     }
-
-//     $('#bioButton').on('click',showText);
-
-    // $('#bioButton').slideDown(1000);
-    // $('#resumeButton').slideDown(1000);
-    // $('#projectsButton').slideDown(1000);
-    // $('#linksButton').slideDown(1000)
-    
-
-
+});
