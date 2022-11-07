@@ -5,23 +5,28 @@ body {
   margin-left: 60px;
 }
 
+header{
+  Make it Middle;
+}
+
 h1 {
+
   width: 50%;
   text-align: center;
   border: .03em solid;
-  margin: 50px 0px 5px 0px ;
+  margin: auto;
 }
 
 h2 {
   width: 50%;
   text-align: center;
   border: .03em solid;
-  margin: 5px 0px 5px 0px;
+  margin: auto;
 }
 
 .button-container{
   display: flex;
-  margin: 50px 60px 0px 30px;
+  margin: auto;
 
 }
 .btn{
